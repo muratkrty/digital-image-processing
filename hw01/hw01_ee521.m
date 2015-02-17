@@ -1,6 +1,6 @@
 % Author: Murat Kirtay, Robotics Laboratory
 % Date: 15/02/2015
-% Description: EE 521 HW#1
+% Description: EE 521 Assignment#1
 %
 % Assignment steps:
 % 1- Select an arbitrary image.
