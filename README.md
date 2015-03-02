@@ -6,7 +6,7 @@ use this repository's source files.
 
 - **HW01**  
   Image quantization and bit plane representation.  
-- **HW02**
+- **HW02**  
   Histogram Equalization and Matching  
   
 [Honor Code]:http://srl.ozyegin.edu.tr/cs222/honorCode.html
