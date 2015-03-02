@@ -1,0 +1,27 @@
+function [] = plotMatchedHistograms(img_dark, img_bright)
+% Author: Murat Kirtay, Robotics Laboratory
+% Date: 02/03/2015
+% Description: Modify the dark image so that its histogram matches that
+%              of the bright image. Display the modified image and its
+%              histrogram.
+% Input/s: img_dark, img_bright  raw images
+% Bugs: No known.
+
+
+Matched_hist_low = histeq(Id_lowExpo,sum(hist(Id_highExpo,256),2));
+figure, imhist(Matched_hist_low),ylim('auto'),title('Matched histogram');
+figure,imshow(Matched_hist_low);
+
+total_dar
+
+subplot(1,2,1)
+histeq(img_dark)
+title('Matched histogram image')
+grid on
+
+subplot(1,2,2)
+histeq(img_bright)
+title('Matched histogram')
+grid on
+
+end
