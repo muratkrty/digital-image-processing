@@ -8,6 +8,9 @@ use this repository's source files.
   Image quantization and bit plane representation.  
 - **HW02**  
   Histogram Equalization and Matching  
-  
+- **HW03**    
+  Unsharp masking  
+- **HW04**  
+
 [Honor Code]:http://srl.ozyegin.edu.tr/cs222/honorCode.html
 -------------------------
