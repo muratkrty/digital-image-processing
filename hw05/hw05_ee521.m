@@ -21,8 +21,32 @@ image = imread('obiwan.jpeg');
 gray_img = rgb2gray(image);
 
 conv_img = im2double(gray_img);
-%log_domain_img = getLogDomainImg(conv_img)
-[n, m] = size(image);
-circular_lpf = getLPFcircular(n, m)
+log_domain_img = getLogDomainImg(conv_img)
+[n, m] = size(gray_img);
+
+circular_lpf = getLPFcircular(n, m);
+lpfied_c = applyCircularLPF(circular_lpf, log_domain_img);
+
+square_lpf = getLFPsquare(n, m)
+lpfied_s = applySquareLPF(square_lpf, log_domain_img);
+
+diamond_lpf = getLFPdiamond(n, m)
+lpfied_d = applyDiamondLPF(diamond_lpf, log_domain_img);
+
+%  0.1007    0.1025    0.0959
+error_vec = getRMSE(conv_img, lpfied_c, lpfied_s, lpfied_d);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
