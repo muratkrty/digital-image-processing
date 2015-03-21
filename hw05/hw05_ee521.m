@@ -36,17 +36,3 @@ lpfied_d = applyDiamondLPF(diamond_lpf, log_domain_img);
 %  0.1007    0.1025    0.0959
 error_vec = getRMSE(conv_img, lpfied_c, lpfied_s, lpfied_d);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
