@@ -6,5 +6,5 @@ function [filtered_img] = applySquareLPF(square_lpf, log_img)
 % Bugs: No known
 
 filtered_img = abs(ifft2(ifftshift(log_img .* square_lpf)));
-%imshow(filtered_img)
+
 end
