@@ -15,5 +15,8 @@ use this repository's source files.
 - **HW05**  
   Fourier Transform  
 - **HW06**  
+  Resampling  
+
+
 [Honor Code]:http://srl.ozyegin.edu.tr/cs222/honorCode.html
 -------------------------
