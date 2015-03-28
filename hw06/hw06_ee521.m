@@ -11,17 +11,17 @@
 % 7- Calculate the RMSE values between the original image and t
 
 image = imread('yoda.jpg');
-gray_img = rgb2gray(image);
+gray_img = im2double(rgb2gray(image));
 factor = 8;
 inter_factor = 4;
 
-
 %downSampleImg(gray_img, factor)
-decimated_img = decimateImg(gray_img, inter-factor);
-interpolateImg(decimated_img, inter_factor)
+decimated_img = decimateImg(gray_img, inter_factor);
+interpolated_img = interpolateImg(decimated_img, inter_factor)
+interpolated_img2 = interpolateImg2(gray_img, inter_factor);
+% TODO: eliminate error
+error_vec = getRMSE(gray_img, interpolated_img, interpolated_img2);
 
-
-%conv_img = im2double(gray_img);
 
 
 
