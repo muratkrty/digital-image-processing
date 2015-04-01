@@ -19,7 +19,7 @@ inter_factor = 4;
 decimated_img = decimateImg(gray_img, inter_factor);
 interpolated_img = interpolateImg(decimated_img, inter_factor)
 interpolated_img2 = interpolateImg2(gray_img, inter_factor);
-% TODO: eliminate error
+
 error_vec = getRMSE(gray_img, interpolated_img, interpolated_img2);
 
 
