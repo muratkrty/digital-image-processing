@@ -18,7 +18,8 @@ use this repository's source files.
   Resampling  
 - **HW07**  
   Image Warping (perspective and affine)  
-
+- **HW08**  
+  Edge Detection  
 
 
 [Honor Code]:http://srl.ozyegin.edu.tr/cs222/honorCode.html
