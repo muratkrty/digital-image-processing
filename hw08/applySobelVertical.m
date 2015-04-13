@@ -6,7 +6,7 @@ function [sobel_vertical] = applySobelVertical(img)
 % Output/s: sobel_vertical
 % Bugs: No known
 
-filter_mat = [1 2 1; 0 0 0; -1 -2 -1];
+filter_mat =  [-1 0 1; -2 0 2; -1 0 1];
 sobel_vertical = imfilter(img, filter_mat);
 %imshow(sobel_vertical);
 
