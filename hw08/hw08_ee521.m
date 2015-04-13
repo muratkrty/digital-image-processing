@@ -18,3 +18,22 @@ image = imread('yoda.jpg');
 gray_img = im2double(rgb2gray(image));
 
 sver_img = applySobelVertical(gray_img);
+shor_img = applySobelHorizontal(gray_img);
+
+magnitude = sqrt(double(sver_img.^2 + shor_img.^2));
+threshold = 0.4;
+[grad_mag, thresholded] = applyGradientMagnitute(magnitude, threshold); 
+
+% below lines are adapted from Matlab documentation
+% http://www.mathworks.com/help/images/ref/hough.html;jsessionid=3876f9b27b501644bffd82adb555
+
+% Extract edges.
+BW = thresholded;
+[H,T,R] = hough(BW,'RhoResolution',0.5,'Theta',-90:0.5:89.5);
+
+imshow(imadjust(mat2gray(H)),'XData',T,'YData',R,...
+      'InitialMagnification','fit');
+title('Hough Transform of Thresholded Image');
+xlabel('\theta'), ylabel('\rho');
+axis on, axis normal, hold on;
+colormap(hot);
