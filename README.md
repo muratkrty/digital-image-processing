@@ -18,6 +18,7 @@ use this repository's source files.
   Resampling  
 - **HW07**  
   Image Warping (perspective and affine)  
+  The code is not eye-candy enough to be commited.  
 - **HW08**  
   Edge Detection  
 
