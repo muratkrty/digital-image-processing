@@ -21,6 +21,8 @@ use this repository's source files.
   The code is not eye-candy enough to be commited.  
 - **HW08**  
   Edge Detection  
+- **HW09**  
+  Image Segmentation Via Region Growing  
 
 
 [Honor Code]:http://srl.ozyegin.edu.tr/cs222/honorCode.html
