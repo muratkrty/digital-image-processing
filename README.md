@@ -17,6 +17,7 @@ use this repository's source files.
 - **HW06**  
   Resampling  
 - **HW07**  
+<<<<<<< HEAD
   Image Warping  
 - **HW08**  
 
@@ -24,6 +25,14 @@ use this repository's source files.
   Noise Filtering  
   
 
+=======
+  Image Warping (perspective and affine)  
+  The code is not eye-candy enough to be commited.  
+- **HW08**  
+  Edge Detection  
+- **HW09**  
+  Image Segmentation Via Region Growing  
+>>>>>>> 8bb287fe752df134a87f81795fa7c3a55c741723
 
 
 [Honor Code]:http://srl.ozyegin.edu.tr/cs222/honorCode.html
