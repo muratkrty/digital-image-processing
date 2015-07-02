@@ -17,8 +17,8 @@ use this repository's source files.
 - **HW06**  
   Resampling  
 - **HW07**  
-
   Image Warping  
+
 - **HW08**  
 
 - **HW09**  
